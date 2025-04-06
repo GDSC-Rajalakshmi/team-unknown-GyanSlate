@@ -139,7 +139,7 @@ We have developed a mobile application that:
 
 ```bash
 # 1. Clone the repository
-git clone (https://github.com/GDSC-Rajalakshmi/team-unknown-GyanSlate.git)
+git clone https://github.com/GDSC-Rajalakshmi/team-unknown-GyanSlate.git
 cd gyanslate
 
 # 2. Install dependencies
