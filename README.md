@@ -151,6 +151,14 @@ flutter run
 
 ---
 
+## 🔐 Authorization Key
+
+```env
+AUTH_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWxsIiwiZXhwIjoxNzUxNzIzMzEzfQ.K5Ze_b8olwx1J2_rc-68hkwhrb0_hoAScQReT09sqFg
+```
+
+---
+
 ## Contributors
 
 <table align="center">
