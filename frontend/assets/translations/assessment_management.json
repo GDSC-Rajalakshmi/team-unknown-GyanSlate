@@ -1,0 +1,142 @@
+{
+  "assessmentManagement": {
+    "card": {
+      "assessmentId": {
+        "en": "Assessment {id}",
+        "ta": "மதிப்பீடு {id}",
+        "hi": "मूल्यांकन {id}",
+        "ml": "വിലയിരുത്തൽ {id}",
+        "te": "అంచనా {id}"
+      },
+      "class": {
+        "en": "Class: {className}",
+        "ta": "வகுப்பு: {className}",
+        "hi": "कक्षा: {className}",
+        "ml": "ക്ലാസ്: {className}",
+        "te": "తరగతి: {className}"
+      },
+      "subject": {
+        "en": "Subject: {subject}",
+        "ta": "பாடம்: {subject}",
+        "hi": "विषय: {subject}",
+        "ml": "വിഷയം: {subject}",
+        "te": "విషయం: {subject}"
+      },
+      "chapter": {
+        "en": "Chapter: {chapter}",
+        "ta": "அத்தியாயம்: {chapter}",
+        "hi": "अध्याय: {chapter}",
+        "ml": "അധ്യായം: {chapter}",
+        "te": "అధ్యాయం: {chapter}"
+      }
+    },
+    "time": {
+      "completed": {
+        "en": "Completed on {date}",
+        "ta": "{date} அன்று முடிந்தது",
+        "hi": "{date} को पूरा हुआ",
+        "ml": "{date} ന് പൂർത്തിയായി",
+        "te": "{date} న పూర్తయింది"
+      },
+      "scheduled": {
+        "en": "Scheduled for {date}",
+        "ta": "{date} அன்று திட்டமிடப்பட்டுள்ளது",
+        "hi": "{date} के लिए निर्धारित",
+        "ml": "{date} ന് നിശ്ചയിച്ചിരിക്കുന്നു",
+        "te": "{date} కి షెడ్యూల్ చేయబడింది"
+      },
+      "remaining": {
+        "en": "Time Left: {hours}h {minutes}m",
+        "ta": "மீதமுள்ள நேரம்: {hours}மணி {minutes}நிமிடம்",
+        "hi": "शेष समय: {hours}घंटे {minutes}मिनट",
+        "ml": "ബാക്കി സമയം: {hours}മണി {minutes}മിനിറ്റ്",
+        "te": "మిగిలిన సమయం: {hours}గం {minutes}ని"
+      }
+    },
+    "title": {
+      "en": "Assessment Management",
+      "ta": "மதிப்பீட்டு மேலாண்மை",
+      "hi": "मूल्यांकन प्रबंधन",
+      "ml": "വിലയിരുത്തൽ മാനേജ്മെന്റ്",
+      "te": "అంచనా నిర్వహణ"
+    },
+    "tabs": {
+      "active": {
+        "en": "Active",
+        "ta": "செயலில்",
+        "hi": "सक्रिय",
+        "ml": "സജീവം",
+        "te": "యాక్టివ్"
+      },
+      "upcoming": {
+        "en": "Upcoming",
+        "ta": "வரவிருக்கும்",
+        "hi": "आगामी",
+        "ml": "വരാനിരിക്കുന്ന",
+        "te": "రాబోయే"
+      },
+      "completed": {
+        "en": "Completed",
+        "ta": "முடிந்தது",
+        "hi": "पूर्ण",
+        "ml": "പൂർത്തിയായി",
+        "te": "పూర్తయింది"
+      }
+    },
+    "actions": {
+      "viewResults": {
+        "en": "View Results",
+        "ta": "முடிவுகளைக் காண்க",
+        "hi": "परिणाम देखें",
+        "ml": "ഫലങ്ങൾ കാണുക",
+        "te": "ఫలితాలను వీక్షించండి"
+      },
+      "createAssessment": {
+        "en": "Create Assessment",
+        "ta": "மதிப்பீடு உருவாக்கு",
+        "hi": "मूल्यांकन बनाएं",
+        "ml": "വിലയിരുത്തൽ സൃഷ്ടിക്കുക",
+        "te": "అంచనాను సృష్టించండి"
+      }
+    },
+    "studentsCompleted": {
+      "en": "Students Completed: {completed}/{total}",
+      "ta": "மாணவர்கள் முடித்தனர்: {completed}/{total}",
+      "hi": "छात्रों ने पूरा किया: {completed}/{total}",
+      "ml": "വിദ്യാർത്ഥികൾ പൂർത്തിയാക്കി: {completed}/{total}",
+      "te": "విద్యార్థులు పూర్తి చేసారు: {completed}/{total}"
+    },
+    "status": {
+      "active": {
+        "en": "Active",
+        "ta": "செயலில்",
+        "hi": "सक्रिय",
+        "ml": "സജീവം",
+        "te": "యాక్టివ్"
+      },
+      "upcoming": {
+        "en": "Upcoming",
+        "ta": "வரவிருக்கும்",
+        "hi": "आगामी",
+        "ml": "വരാനിരിക്കുന്ന",
+        "te": "రాబోయే"
+      },
+      "completed": {
+        "en": "Completed",
+        "ta": "முடிந்தது",
+        "hi": "पूर्ण",
+        "ml": "പൂർത്തിയായി",
+        "te": "పూర్తయింది"
+      }
+    },
+    "messages": {
+      "noAssessments": {
+        "en": "No assessments found",
+        "ta": "மதிப்பீடுகள் எதுவும் கிடைக்கவில்லை",
+        "hi": "कोई मूल्यांकन नहीं मिला",
+        "ml": "വിലയിരുത്തലുകളൊന്നും കണ്ടെത്തിയില്ല",
+        "te": "అంచనాలు ఏవీ కనుగొనబడలేదు"
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "availableAssessments": {
+    "en": "Available Assessments",
+    "ta": "கிடைக்கக்கூடிய மதிப்பீடுகள்",
+    "hi": "उपलब्ध मूल्यांकन",
+    "te": "అందుబాటులో ఉన్న అంచనాలు"
+  },
+  "tabs": {
+    "active": {
+      "en": "Active",
+      "ta": "செயலில்",
+      "hi": "सक्रिय",
+      "te": "యాక్టివ్"
+    },
+    "upcoming": {
+      "en": "Upcoming",
+      "ta": "வரவிருக்கும்",
+      "hi": "आगामी",
+      "te": "రాబోయే"
+    },
+    "past": {
+      "en": "Past",
+      "ta": "கடந்த",
+      "hi": "पिछला",
+      "te": "గత"
+    }
+  },
+  "status": {
+    "active": {
+      "en": "ACTIVE",
+      "ta": "செயலில்",
+      "hi": "सक्रिय",
+      "te": "యాక్టివ్"
+    },
+    "upcoming": {
+      "en": "UPCOMING",
+      "ta": "வரவிருக்கும்",
+      "hi": "आगामी",
+      "te": "రాబోయే"
+    },
+    "completed": {
+      "en": "COMPLETED",
+      "ta": "முடிந்தது",
+      "hi": "पूर्ण",
+      "te": "పూర్తయింది"
+    }
+  },
+  "timeLabels": {
+    "timeRemaining": {
+      "en": "TIME REMAINING",
+      "ta": "மீதமுள்ள நேரம்",
+      "hi": "शेष समय",
+      "te": "మిగిలిన సమయం"
+    },
+    "startsIn": {
+      "en": "STARTS IN",
+      "ta": "தொடங்குகிறது",
+      "hi": "में शुरू",
+      "te": "ప్రారంభం"
+    },
+    "status": {
+      "en": "STATUS",
+      "ta": "நிலை",
+      "hi": "स्थिति",
+      "te": "స్థితి"
+    }
+  },
+  "assessmentInfo": {
+    "chapter": {
+      "en": "Chapter: {name}",
+      "ta": "அத்தியாயம்: {name}",
+      "hi": "अध्याय: {name}",
+      "te": "అధ్యాయం: {name}"
+    },
+    "noAssessments": {
+      "en": "No assessments available",
+      "ta": "மதிப்பீடுகள் எதுவும் இல்லை",
+      "hi": "कोई मूल्यांकन उपलब्ध नहीं",
+      "te": "అంచనాలు అందుబాటులో లేవు"
+    },
+    "start": {
+      "en": "Start",
+      "ta": "தொடங்கு",
+      "hi": "शुरू करें",
+      "te": "ప్రారంభించండి"
+    }
+  }
+}

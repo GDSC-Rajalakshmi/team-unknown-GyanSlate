@@ -1,0 +1,75 @@
+{
+  "performanceAnalysis": {
+    "title": {
+      "en": "Assessment {id} Analysis",
+      "ta": "மதிப்பீடு {id} பகுப்பாய்வு",
+      "hi": "मूल्यांकन {id} विश्लेषण",
+      "ml": "വിലയിരുത്തൽ {id} വിശകലനം",
+      "te": "అంచనా {id} విశ్లేషణ"
+    },
+    "tabs": {
+      "studentAnalysis": {
+        "en": "Student Analysis",
+        "ta": "மாணவர் பகுப்பாய்வு",
+        "hi": "छात्र विश्लेषण",
+        "ml": "വിദ്യാർത്ഥി വിശകലനം",
+        "te": "విద్యార్థి విశ్లేషణ"
+      },
+      "topicAnalysis": {
+        "en": "Topic Analysis",
+        "ta": "தலைப்பு பகுப்பாய்வு",
+        "hi": "विषय विश्लेषण",
+        "ml": "വിഷയ വിശകലനം",
+        "te": "అంశం విశ్లేషణ"
+      }
+    },
+    "messages": {
+      "noData": {
+        "en": "No performance data available",
+        "ta": "செயல்திறன் தரவு கிடைக்கவில்லை",
+        "hi": "प्रदर्शन डेटा उपलब्ध नहीं है",
+        "ml": "പ്രകടന ഡാറ്റ ലഭ്യമല്ല",
+        "te": "పనితీరు డేటా అందుబాటులో లేదు"
+      }
+    },
+    "topicAnalysis": {
+      "averageScore": {
+        "en": "Average Score: {score}/10",
+        "ta": "சராசரி மதிப்பெண்: {score}/10",
+        "hi": "औसत अंक: {score}/10",
+        "ml": "ശരാശരി സ്കോർ: {score}/10",
+        "te": "సగటు స్కోరు: {score}/10"
+      }
+    },
+    "studentAnalysis": {
+      "markThreshold": {
+        "en": "Select Mark Threshold",
+        "ta": "மதிப்பெண் வரம்பைத் தேர்ந்தெடுக்கவும்",
+        "hi": "अंक सीमा चुनें",
+        "ml": "മാർക്ക് പരിധി തിരഞ്ഞെടുക്കുക",
+        "te": "మార్కు థ్రెషోల్డ్ ఎంచుకోండి"
+      },
+      "markOutOf": {
+        "en": "{mark}/10",
+        "ta": "{mark}/10",
+        "hi": "{mark}/10",
+        "ml": "{mark}/10",
+        "te": "{mark}/10"
+      },
+      "belowThreshold": {
+        "en": "{count} students below threshold",
+        "ta": "{count} மாணவர்கள் வரம்புக்கு கீழே",
+        "hi": "{count} छात्र सीमा से नीचे",
+        "ml": "{count} വിദ്യാർത്ഥികൾ പരിധിക്ക് താഴെ",
+        "te": "{count} విద్యార్థులు థ్రెషోల్డ్ కంటే తక్కువ"
+      },
+      "rollNo": {
+        "en": "Roll No: {rollNo}",
+        "ta": "பதிவு எண்: {rollNo}",
+        "hi": "रोल नंबर: {rollNo}",
+        "ml": "റോൾ നമ്പർ: {rollNo}",
+        "te": "రోల్ నెం: {rollNo}"
+      }
+    }
+  }
+} 

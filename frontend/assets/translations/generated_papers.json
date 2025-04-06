@@ -1,0 +1,70 @@
+{
+  "generatedPapers": {
+    "title": {
+      "en": "Generated Papers",
+      "ta": "உருவாக்கப்பட்ட தாள்கள்",
+      "hi": "उत्पन्न पेपर",
+      "te": "జనరేట్ చేయబడిన పేపర్లు"
+    },
+    "noPapers": {
+      "en": "No question papers generated yet",
+      "ta": "இதுவரை வினாத்தாள்கள் உருவாக்கப்படவில்லை",
+      "hi": "अभी तक कोई प्रश्न पत्र उत्पन्न नहीं किया गया है",
+      "te": "ఇంకా ప్రశ్న పత్రాలు సృష్టించబడలేదు"
+    },
+    "questions": {
+      "en": "Questions: {count}",
+      "ta": "கேள்விகள்: {count}",
+      "hi": "प्रश्न: {count}",
+      "te": "ప్రశ్నలు: {count}"
+    },
+    "totalMarks": {
+      "en": "Total Marks: {marks}",
+      "ta": "மொத்த மதிப்பெண்கள்: {marks}",
+      "hi": "कुल अंक: {marks}",
+      "te": "మొత్తం మార్కులు: {marks}"
+    },
+    "duration": {
+      "en": "Duration: {minutes} minutes",
+      "ta": "கால அளவு: {minutes} நிமிடங்கள்",
+      "hi": "अवधि: {minutes} मिनट",
+      "te": "వ్యవధి: {minutes} నిమిషాలు"
+    },
+    "view": {
+      "en": "View",
+      "ta": "காண்க",
+      "hi": "देखें",
+      "te": "చూడండి"
+    },
+    "delete": {
+      "en": "Delete",
+      "ta": "நீக்கு",
+      "hi": "हटाएं",
+      "te": "తొలగించు"
+    },
+    "deleteTitle": {
+      "en": "Delete Paper",
+      "ta": "தாளை நீக்கு",
+      "hi": "पेपर हटाएं",
+      "te": "పేపర్ తొలగించండి"
+    },
+    "deleteConfirmation": {
+      "en": "Are you sure you want to delete this question paper?",
+      "ta": "இந்த வினாத்தாளை நீக்க விரும்புகிறீர்களா?",
+      "hi": "क्या आप वाकई इस प्रश्न पत्र को हटाना चाहते हैं?",
+      "te": "మీరు ఖచ్చితంగా ఈ ప్రశ్న పత్రాన్ని తొలగించాలనుకుంటున్నారా?"
+    },
+    "cancel": {
+      "en": "Cancel",
+      "ta": "ரத்து செய்",
+      "hi": "रद्द करें",
+      "te": "రద్దు చేయండి"
+    },
+    "deleteSuccess": {
+      "en": "Question paper deleted successfully",
+      "ta": "வினாத்தாள் வெற்றிகரமாக நீக்கப்பட்டது",
+      "hi": "प्रश्न पत्र सफलतापूर्वक हटा दिया गया",
+      "te": "ప్రశ్న పత్రం విజయవంతంగా తొలగించబడింది"
+    }
+  }
+} 

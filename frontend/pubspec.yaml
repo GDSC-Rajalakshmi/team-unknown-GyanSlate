@@ -1,0 +1,147 @@
+name: edugenius
+description: A Flutter-based educational platform with AI-generated content, analytics, classroom management, and teacher collaboration features.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.5
+  path_provider: ^2.1.5
+  shared_preferences: ^2.2.0
+  http: ^1.3.0
+  connectivity_plus: ^6.1.3
+  flutter_secure_storage: ^9.2.4
+  intl: ^0.19.0
+  syncfusion_flutter_pdf: ^28.2.12
+  fluttertoast: ^8.2.2
+  cached_network_image: ^3.2.3
+  flutter_svg: ^2.0.7
+  flutter_sound: ^9.2.13
+  url_launcher: ^6.2.2
+  image_picker: ^1.0.1
+  flutter_markdown: ^0.7.6+2
+  flutter_local_notifications: ^19.0.0
+  fl_chart: ^0.70.2
+  data_table_2: ^2.5.6
+  flutter_spinkit: ^5.2.0
+  uuid: ^4.5.1
+  timeago: ^3.5.0
+  google_fonts: ^6.2.1
+  flutter_pdfview: ^1.4.0
+  speech_to_text: ^7.0.0
+  firebase_core: ^3.12.1
+  firebase_messaging: ^15.2.4
+  file_picker: ^9.2.1
+  audioplayers: ^6.4.0
+  permission_handler: ^11.3.1
+  record: ^6.0.0
+  animated_text_kit: ^4.2.2
+  flutter_animate: ^4.5.0
+  translator: ^1.0.3+1
+  video_player: ^2.8.1
+  easy_localization: ^3.0.2
+  video_compress: ^3.1.2
+  dio: ^5.5.0
+  jwt_decoder: ^2.0.1
+  camera: ^0.10.5+9
+  photo_manager: ^3.0.0
+  device_info_plus: ^9.1.1
+  rive: ^0.12.4
+  confetti: ^0.7.0
+  flutter_image_slideshow: ^0.1.6
+  flutter_tts: ^3.8.5
+  flutter_math_fork: ^0.7.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Assets section
+  assets:
+    - assets/translations/main.json
+    - assets/translations/student_login.json
+    - assets/translations/student_dashboard.json
+    - assets/translations/ai_tutor_chat.json
+    - assets/translations/lecture_video_list.json
+    - assets/translations/teacher_dashboard.json
+    - assets/translations/assessment_management.json
+    - assets/translations/assessment_creation.json
+    - assets/translations/admin_dashboard.json
+    - assets/translations/question_generator.json
+    - assets/translations/lecturemanagement.json
+    - assets/translations/lecture_video_management.json
+    - assets/translations/lecture_history.json
+    - assets/translations/available_assessments.json
+    - assets/translations/student_login.json
+    - assets/translations/question_paper_generator.json
+    - assets/translations/authorization_page.json
+    - assets/translations/question_paper_view.json
+    - assets/translations/generated_papers.json
+    - assets/animations/login_screen_character.riv
+    - assets/translations/upload_notes.json
+    - assets/translations/general_doubt_resolver.json
+    - assets/translations/student_profile.json
+    - assets/animations/birb.riv
+    - assets/translations/student_leaderboard.json
+    - assets/translations/performance_analysis.json
+    - assets/images/logo.png
+  # Comment out or remove these asset entries until you have the actual files
+  # assets:
+  #   - assets/fonts/
+  #   - assets/images/
+
+  # Comment out the fonts section for now
+  # fonts:
+  #   - family: NotoSans
+  #     fonts:
+  #       - asset: assets/fonts/NotoSans-Regular.ttf
+  #       - asset: assets/fonts/NotoSans-Bold.ttf
+  #         weight: 700
+  #   - family: NotoSansTamil
+  #     fonts:
+  #       - asset: assets/fonts/NotoSansTamil-Regular.ttf
+  #   - family: NotoSansDevanagari
+  #     fonts:
+  #       - asset: assets/fonts/NotoSansDevanagari-Regular.ttf
+  #   - family: NotoSansMalayalam
+  #     fonts:
+  #       - asset: assets/fonts/NotoSansMalayalam-Regular.ttf
+  #   - family: NotoSansTelugu
+  #     fonts:
+  #       - asset: assets/fonts/NotoSansTelugu-Regular.ttf
+
+  # Comment out or remove the language entries until you have the actual language files
+  # languages:
+  #   - language: en
+  #     locale: US
+  #   - language: es
+  #     locale: ES
+  #   - language: fr
+  #     locale: FR
+  #   - language: de
+  #     locale: DE
+  #   - language: ja
+  #     locale: JP
+  #   - language: zh
+  #     locale: CN
+  #   - language: ar
+  #     locale: SA
+  #   - language: hi
+  #     locale: IN
+  #   - language: ta
+  #     locale: IN
+  #   - language: te
+  #     locale: IN
+  #   - language: ml
+  #     locale: IN

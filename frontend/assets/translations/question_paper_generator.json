@@ -1,0 +1,164 @@
+{
+  "generateQuestionPaper": {
+    "en": "Generate MCQs",
+    "ta": "பல்விடை வினாக்களை உருவாக்கு",
+    "hi": "बहुविकल्पीय प्रश्न बनाएं",
+    "te": "బహుళ ఎంపిక ప్రశ్నలను తయారు చేయండి"
+  },
+  "selectClass": {
+    "en": "Select Class",
+    "ta": "வகுப்பைத் தேர்ந்தெடுக்கவும்",
+    "hi": "कक्षा चुनें",
+    "te": "తరగతిని ఎంచుకోండి"
+  },
+  "selectSubject": {
+    "en": "Select Subject",
+    "ta": "பொருளைத் தேர்ந்தெடுக்கவும்",
+    "hi": "विषय चुनें",
+    "te": "విषయాన్ని ఎంచుకోండి"
+  },
+  "selectChapter": {
+    "en": "Select Chapter",
+    "ta": "அத்தியாயத்தைத் தேர்ந்தெடுக்கவும்",
+    "hi": "अध्याय चुनें",
+    "te": "అధ్యాయాన్ని ఎంచుకోండి"
+  },
+  "numberOfQuestions": {
+    "en": "Number of Questions",
+    "ta": "கேள்விகளின் எண்ணிக்கை",
+    "hi": "प्रश्नों की संख्या",
+    "te": "ప్రశ్నల సంఖ్య"
+  },
+  "uploadChapterPDF": {
+    "en": "Upload Chapter PDF",
+    "ta": "அத்தியாய PDF-ஐ பதிவேற்றம் செய்க",
+    "hi": "अध्याय PDF अपलोड करें",
+    "te": "అధ్యాय PDF ని అప్‌లోడ్ చేయండి"
+  },
+  "setQuestionsPerSubtopic": {
+    "en": "Set Number of Questions for Each Subtopic",
+    "ta": "ஒவ்வொரு துணைப்பொருளுக்கும் கேள்விகளின் எண்ணிக்கையை அமைக்க",
+    "hi": "प्रत्येक उपविषय के लिए प्रश्नों की संख्या निर्धारित करें",
+    "te": "ప్రతి ఉపవిషయానికి ప్రశ్నల సంఖ్యను సెట్ చేయండి"
+  },
+  "regionalTransformation": {
+    "en": "Regional Transformation Needed",
+    "ta": "பிராந்திய மாற்றம் தேவை",
+    "hi": "क्षेत्रीय परिवर्तन आवश्यक",
+    "te": "ప్రాంతీయ మార్పు అవసరం"
+  },
+  "selectStates": {
+    "en": "Select States for Regional Transformation",
+    "ta": "பிராந்திய மாற்றத்திற்கான மாநிலங்களைத் தேர்ந்தெடுக்கவும்",
+    "hi": "क्षेत्रीय परिवर्तन के लिए राज्य चुनें",
+    "te": "ప్రాంతీయ మార్పు కోసం రాజ్యాలను ఎంచుకోండి"
+  },
+  "generateQuestions": {
+    "en": "Generate Questions",
+    "ta": "கேள்விகளை உருவாக்க",
+    "hi": "प्रश्न जनरेट करें",
+    "te": "ప్రశ్నలను ఉత్పత్తి చేయండి"
+  },
+  "regenerate": {
+    "en": "Regenerate",
+    "ta": "மீண்டும் உருவாக்க",
+    "hi": "पुनः जनरेट करें",
+    "te": "మళ్లీ ఉత్పత్తి చేయండి"
+  },
+  "createQuestionPaper": {
+    "en": "Create Question Paper",
+    "ta": "கேள்வி தாளை உருவாக்க",
+    "hi": "प्रश्न पत्र बनाएं",
+    "te": "ప్రశ్న పత్రాన్ని సృష్టించండి"
+  },
+  "options": {
+    "en": "Options",
+    "ta": "விருப்பங்கள்",
+    "hi": "विकल्प",
+    "te": "ఎంపికలు"
+  },
+  "questionPaperGenerated": {
+    "en": "Question paper generated successfully!",
+    "ta": "கேள்வி தாள் வெற்றிகரமாக உருவாக்கப்பட்டது!",
+    "hi": "प्रश्न पत्र सफलतापूर्वक जनरेट किया गया!",
+    "te": "ప్రశ్న పత్రం విజయవంతంగా ఉత్పత్తి చేయబడింది!"
+  },
+  "errorGeneratingQuestions": {
+    "en": "Error generating questions",
+    "ta": "கேள்விகளை உருவாக்குவதில் பிழை",
+    "hi": "प्रश्न जनरेट करने में त्रुटि",
+    "te": "ప్రశ్నలను ఉత్పత్తి చేయడంలో లోపం"
+  },
+  "processingPDF": {
+    "en": "Processing PDF content...",
+    "ta": "PDF உள்ளடக்கத்தை செயலாக்குகிறது...",
+    "hi": "PDF सामग्री प्रोसेस कर रहा है...",
+    "te": "PDF కంటెంట్‌ని ప్రాసెస్ చేస్తోంది..."
+  },
+  "totalQuestionsMismatch": {
+    "en": "Total questions ({total}) must equal the selected number of questions ({selected})",
+    "ta": "மொத்த கேள்விகள் ({total}) தேர்ந்தெடுக்கப்பட்ட கேள்விகளின் எண்ணிக்கைக்கு ({selected}) சமமாக இருக்க வேண்டும்",
+    "hi": "कुल प्रश्न ({total}) चयनित प्रश्नों की संख्या ({selected}) के बराबर होना चाहिए",
+    "te": "మొత్తం ప్రశ్నలు ({total}) ఎంచుకున్న ప్రశ్నల సంఖ్యకు ({selected}) సమానంగా ఉండాలి"
+  },
+  "examplePercentage": {
+    "en": "Example Percentage",
+    "ta": "எடுத்துக்காட்டு சதவீதம்",
+    "hi": "उदाहरण प्रतिशत",
+    "te": "ఉదాహరణ శాతం"
+  },
+  "questions": {
+    "en": "Questions",
+    "ta": "கேள்விகள்",
+    "hi": "प्रश्न",
+    "te": "ప్రశ్నలు"
+  },
+  "selected": {
+    "en": "Selected: {count}/{total}",
+    "ta": "தேர்ந்தெடுக்கப்பட்டது: {count}/{total}",
+    "hi": "चयनित: {count}/{total}",
+    "te": "ఎంచుకున్నవి: {count}/{total}"
+  },
+  "questionsFor": {
+    "en": "Questions for {state}",
+    "ta": "{state} க்கான கேள்விகள்",
+    "hi": "{state} के लिए प्रश्न",
+    "te": "{state} కోసం ప్రశ్నలు"
+  },
+  "commonPool": {
+    "en": "Common Pool",
+    "ta": "பொது குழு",
+    "hi": "सामान्य पूल",
+    "te": "సాధారణ పూల్"
+  },
+  "errorProcessingPDF": {
+    "en": "Error processing PDF: {error}",
+    "ta": "PDF செயலாக்கத்தில் பிழை: {error}",
+    "hi": "PDF प्रोसेस करने में त्रुटि: {error}",
+    "te": "PDF ప్రాసెసింగ్‌లో లోపం: {error}"
+  },
+  "Tamil Nadu": {
+    "en": "Tamil Nadu",
+    "ta": "தமிழ்நாடு",
+    "hi": "तमिलनाडु",
+    "te": "తమిళనాడు"
+  },
+  "Andhra Pradesh": {
+    "en": "Andhra Pradesh",
+    "ta": "ஆந்திரப் பிரதேசம்",
+    "hi": "आंध्र प्रदेश",
+    "te": "ఆంధ్రప్రదేశ్"
+  },
+  "Delhi": {
+    "en": "Delhi",
+    "ta": "டெல்லி",
+    "hi": "दिल्ली",
+    "te": "ఢిల్లీ"
+  },
+  "questionUnselected": {
+    "en": "This question has been unselected",
+    "ta": "இந்த கேள்வி தேர்வு நீக்கப்பட்டுள்ளது",
+    "hi": "यह प्रश्न अचयनित किया गया है",
+    "te": "ఈ ప్రశ్న ఎంపిక తొలగించబడింది"
+  }
+}

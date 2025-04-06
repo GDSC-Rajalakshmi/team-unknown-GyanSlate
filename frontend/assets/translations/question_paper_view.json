@@ -1,0 +1,46 @@
+{
+  "questionPaper": {
+    "title": {
+      "en": "Question Paper",
+      "ta": "வினாத்தாள்",
+      "hi": "प्रश्न पत्र",
+      "te": "ప్రశ్న పత్రం"
+    },
+    "edit": {
+      "en": "Edit",
+      "ta": "திருத்து",
+      "hi": "संपादित करें",
+      "te": "సవరించు"
+    },
+    "download": {
+      "en": "Download",
+      "ta": "பதிவிறக்கம்",
+      "hi": "डाउनलोड",
+      "te": "డౌన్‌లోడ్"
+    },
+    "totalMarks": {
+      "en": "Total Marks: {marks}",
+      "ta": "மொத்த மதிப்பெண்கள்: {marks}",
+      "hi": "कुल अंक: {marks}",
+      "te": "మొత్తం మార్కులు: {marks}"
+    },
+    "duration": {
+      "en": "Duration: {minutes} minutes",
+      "ta": "கால அளவு: {minutes} நிமிடங்கள்",
+      "hi": "अवधि: {minutes} मिनट",
+      "te": "వ్యవధి: {minutes} నిమిషాలు"
+    },
+    "questionNumber": {
+      "en": "Question {number}",
+      "ta": "கேள்வி {number}",
+      "hi": "प्रश्न {number}",
+      "te": "ప్రశ్న {number}"
+    },
+    "marks": {
+      "en": "Marks: {marks}",
+      "ta": "மதிப்பெண்கள்: {marks}",
+      "hi": "अंक: {marks}",
+      "te": "మార్కులు: {marks}"
+    }
+  }
+}
