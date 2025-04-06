@@ -151,11 +151,14 @@ flutter run
 
 ---
 
-## 🔐 Authorization Key
+## 📱 Download APK
 
-```env
-AUTH_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWxsIiwiZXhwIjoxNzUxNzIzMzEzfQ.K5Ze_b8olwx1J2_rc-68hkwhrb0_hoAScQReT09sqFg
-```
+Want to try GyanSlate without building the project?
+
+➡️ [**Download the latest APK here**](https://drive.google.com/drive/folders/1QhwX0p-qvqQb8UXn032PHyGk6GBA1Al2?usp=drive_link)  
+
+> 💡 Make sure to allow installation from unknown sources on your Android device.
+
 
 ---
 
