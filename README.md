@@ -1,6 +1,6 @@
 <table align="center">
   <tr>
-    <td><img src="./Images/logo.png" alt="GyanSlate Logo" width="160" /></td>
+    <td><img src="./images/logo.png" alt="GyanSlate Logo" width="160" /></td>
     <td><h1 style="margin-left: -20px; margin-bottom:-20px">GyanSlate</h1></td>
   </tr>
 </table>
@@ -78,21 +78,21 @@ We have developed a mobile application that:
   <tr>
     <td align="center" style="padding: 20px;">
       <strong>Toy Interaction</strong><br><br>
-      <img src="./Images/toy.png" width="280px" style="border-radius: 12px;" />
+      <img src="./images/toy.png" width="280px" style="border-radius: 12px;" />
     </td>
     <td align="center" style="padding: 20px;">
       <strong>Student Assessment</strong><br><br>
-      <img src="./Images/assesment.jpg" width="280px" style="border-radius: 12px;" />
+      <img src="./images/assesment.jpg" width="280px" style="border-radius: 12px;" />
     </td>
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
       <strong>Book-Back Question Resolver</strong><br><br>
-      <img src="./Images/questionresolver.jpg" width="280px" style="border-radius: 12px;" />
+      <img src="./images/questionresolver.jpg" width="280px" style="border-radius: 12px;" />
     </td>
     <td align="center" style="padding: 20px;">
       <strong>General Doubt Resolver</strong><br><br>
-      <img src="./Images/generaldoubt.jpg" width="280px" style="border-radius: 12px;" />
+      <img src="./images/generaldoubt.jpg" width="280px" style="border-radius: 12px;" />
     </td>
   </tr>
 </table>
@@ -139,7 +139,7 @@ We have developed a mobile application that:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-org>/gyanslate.git
+git clone https://github.com/GDSC-Rajalakshmi/team-unknown-GyanSlate.git
 cd gyanslate
 
 # 2. Install dependencies
