@@ -175,7 +175,7 @@ class _ExplanationPlayerScreenState extends State<ExplanationPlayerScreen> with 
 
 
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/student/expl'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/expl'),
         headers: {'Content-Type': 'application/json',
          'Authorization': 'Bearer $token',},
         body: jsonEncode({
@@ -315,7 +315,7 @@ class _ExplanationPlayerScreenState extends State<ExplanationPlayerScreen> with 
         final rollNum = int.tryParse(prefs.getString('rollNumber') ?? '') ?? 0;
 
           final response = await http.post(
-            Uri.parse('http://192.168.255.209:5000/student/expl'),
+            Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/expl'),
             headers: {
               'Content-Type': 'application/json',
               'Authorization': 'Bearer $token',
@@ -1055,7 +1055,7 @@ class _ExplanationPlayerScreenState extends State<ExplanationPlayerScreen> with 
       final token = await storage.read(key: 'token');
       
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/student/expl'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/expl'),
         headers: {'Content-Type': 'application/json',
          'Authorization': 'Bearer $token',
          },

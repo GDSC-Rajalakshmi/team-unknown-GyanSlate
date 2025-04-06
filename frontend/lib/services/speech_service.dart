@@ -64,7 +64,7 @@ class SpeechService {
 
   Future<String> transcribeAudio(List<int> audioData, String languageCode) async {
     try {
-      final uri = Uri.parse('http://192.168.255.209:5000/transcribe');
+      final uri = Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/transcribe');
       final response = await http.post(
         uri,
         headers: {

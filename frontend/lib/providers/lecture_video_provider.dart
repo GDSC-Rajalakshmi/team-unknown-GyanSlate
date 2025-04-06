@@ -36,7 +36,7 @@ class LectureVideoProvider with ChangeNotifier {
       final token = await storage.read(key: 'token');
 
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/student/list_video'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/list_video'),
         headers: {'Content-Type': 'application/json',
         'Authorization': 'Bearer $token',},
         body: json.encode({
@@ -203,7 +203,7 @@ class LectureVideoProvider with ChangeNotifier {
       final storage = const FlutterSecureStorage();
       final token = await storage.read(key: 'token');
 
-      final uri = Uri.parse('http://192.168.255.209:5000/admin/video_list')
+      final uri = Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/admin/video_list')
           .replace(queryParameters: queryParams);
 
       final response = await http.get(

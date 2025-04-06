@@ -380,7 +380,7 @@ class _ExplanationPlayerScreenState extends State<ExplanationPlayerScreen> with 
       }
 
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/student/expl'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/expl'),
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Bearer $token', // Add the token to headers
@@ -611,7 +611,7 @@ class _ExplanationPlayerScreenState extends State<ExplanationPlayerScreen> with 
       print('Calling API on ${isTimeout ? "timeout" : "back navigation"}');
 
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/student/expl'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/expl'),
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Bearer $token',
@@ -644,7 +644,7 @@ class _ExplanationPlayerScreenState extends State<ExplanationPlayerScreen> with 
       String? accessToken = await storage.read(key: 'question_access');
       
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/student/what_to_expl'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/what_to_expl'),
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Bearer $token', // Use the access token

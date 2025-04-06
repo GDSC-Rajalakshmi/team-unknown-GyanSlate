@@ -58,7 +58,7 @@ class _AssessmentManagementState extends State<AssessmentManagement> {
           // print('Language Name: $currentLang');
 
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/teacher/list_assignment'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/teacher/list_assignment'),
         headers: {
           'Authorization': 'Bearer $token',
           'Content-Type': 'application/json',  // Specify content type

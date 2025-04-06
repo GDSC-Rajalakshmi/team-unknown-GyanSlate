@@ -105,7 +105,7 @@ class ChatProvider extends ChangeNotifier {
       // Create multipart request
       var request = http.MultipartRequest(
         'POST',
-        Uri.parse('http://192.168.255.209:5000$apiEndpoint'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app$apiEndpoint'),
       );
 
       // Add authorization header if token is provided

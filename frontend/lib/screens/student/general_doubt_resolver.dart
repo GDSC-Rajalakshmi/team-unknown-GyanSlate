@@ -559,7 +559,7 @@ class _GeneralDoubtResolverState extends State<GeneralDoubtResolver> with Single
         // For image upload case
         final request = http.MultipartRequest(
           'POST',
-          Uri.parse('http://192.168.255.209:5000/student/doubt'),
+          Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/doubt'),
         );
         
         // Get both tokens
@@ -643,7 +643,7 @@ class _GeneralDoubtResolverState extends State<GeneralDoubtResolver> with Single
         // For text-only case
         var request = http.MultipartRequest(
           'POST',
-          Uri.parse('http://192.168.255.209:5000/student/doubt'),
+          Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/doubt'),
         );
         
         request.headers.addAll({
@@ -1681,7 +1681,7 @@ class _GeneralDoubtResolverState extends State<GeneralDoubtResolver> with Single
       final classNum = int.tryParse(classNumString) ?? 10; // Default to 10 if parsing fails
 
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/student/availabilty'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/availabilty'),
         headers: {
           'Authorization': 'Bearer $token',
           'Content-Type': 'application/json',

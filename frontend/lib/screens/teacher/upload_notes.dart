@@ -73,7 +73,7 @@ class _UploadNotesState extends State<UploadNotes> {
       
       final dio = Dio();
       final response = await dio.get(
-        'http://192.168.255.209:5000/teacher/mcq_availability',
+        'https://dharsan-rural-edu-101392092221.asia-south1.run.app/teacher/mcq_availability',
         options: Options(headers: {'Authorization': 'Bearer $token'}),
       );
 
@@ -210,7 +210,7 @@ class _UploadNotesState extends State<UploadNotes> {
         // Make the HTTP request with authorization header
         final dio = Dio();
         final response = await dio.post(
-          'http://192.168.255.209:5000/teacher/numericprob',
+          'https://dharsan-rural-edu-101392092221.asia-south1.run.app/teacher/numericprob',
           data: formData,
           options: Options(
             headers: {

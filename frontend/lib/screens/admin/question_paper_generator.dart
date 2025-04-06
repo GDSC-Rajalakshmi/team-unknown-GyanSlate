@@ -116,7 +116,7 @@ class _QuestionPaperGeneratorState extends State<QuestionPaperGenerator> {
         final storage = const FlutterSecureStorage();
         final token = await storage.read(key: 'token');
 
-        final uri = Uri.parse('http://192.168.255.209:5000/admin/subtopic_generation');
+        final uri = Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/admin/subtopic_generation');
         final request = http.MultipartRequest('POST', uri)
           ..headers['Authorization'] = 'Bearer $token'
           ..files.add(http.MultipartFile.fromBytes(
@@ -825,7 +825,7 @@ class _QuestionPaperGeneratorState extends State<QuestionPaperGenerator> {
         throw Exception('File bytes are null');
       }
 
-      final uri = Uri.parse('http://192.168.255.209:5000/admin/mcq_generation');
+      final uri = Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/admin/mcq_generation');
       
       // Create the request data
       final requestData = {
@@ -978,7 +978,7 @@ class _QuestionPaperGeneratorState extends State<QuestionPaperGenerator> {
       print('Token retrieved: ${token != null ? 'Yes' : 'No'}'); // Debug log
 
       print('Submitting MCQ generation...'); // Debug log
-      final submitUri = Uri.parse('http://192.168.255.209:5000/admin/mcq_generation/submit');
+      final submitUri = Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/admin/mcq_generation/submit');
       final submitResponse = await http.post(
         submitUri,
         headers: {

@@ -572,7 +572,7 @@ class _QuestionDetailsViewState extends State<QuestionDetailsView> {
                                             
                                               
                                               final response = await http.post(
-                                                Uri.parse('http://192.168.255.209:5000/student/update_score'),
+                                                Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/update_score'),
                                                 headers: {
                                                   'Content-Type': 'application/json',
                                                   'Authorization': 'Bearer $token',

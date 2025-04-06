@@ -98,7 +98,7 @@ class _AssessmentCreatorState extends State<AssessmentCreator> {
       final token = await storage.read(key: 'token');
 
       final response = await http.get(
-        Uri.parse('http://192.168.255.209:5000/teacher/mcq_availability'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/teacher/mcq_availability'),
         headers: {
           'Authorization': 'Bearer $token',
         },
@@ -897,7 +897,7 @@ Widget _buildTotalQuestionsInput() {
 
       // Send POST request
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/teacher/assignment_schedule'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/teacher/assignment_schedule'),
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Bearer $token',

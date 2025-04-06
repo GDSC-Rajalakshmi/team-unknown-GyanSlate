@@ -80,7 +80,7 @@ class _AvailableAssessmentsState extends State<AvailableAssessments> {
       final classNum = int.tryParse(classNumString) ?? 10; // Default to 10 if parsing fails
 
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/student/list_assignment'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/list_assignment'),
         body: jsonEncode({
           "class": classNum,
           "roll_num": rollNum,
@@ -462,7 +462,7 @@ class _AvailableAssessmentsState extends State<AvailableAssessments> {
 
           // Make API call to get questions
           final response = await http.post(
-            Uri.parse('http://192.168.255.209:5000/student/attend_assignment'),
+            Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/attend_assignment'),
             body: jsonEncode({
               "state": state,
               "id": assessment['id'].toString(),

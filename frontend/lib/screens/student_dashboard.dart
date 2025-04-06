@@ -117,7 +117,7 @@ class _StudentDashboardState extends State<StudentDashboard> with SingleTickerPr
    
     try {
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/student/my_score'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/my_score'),
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Bearer $token',

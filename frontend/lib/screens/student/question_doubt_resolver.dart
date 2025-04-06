@@ -229,7 +229,7 @@ class _QuestionDoubtResolverState extends State<QuestionDoubtResolver> with Sing
         // Create multipart request
         var request = http.MultipartRequest(
           'POST',
-          Uri.parse('http://192.168.255.209:5000/student/extract_q'),
+          Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/extract_q'),
         );
         // Add authorization header
         request.headers.addAll({
@@ -347,12 +347,9 @@ class _QuestionDoubtResolverState extends State<QuestionDoubtResolver> with Sing
         'lng': currentLanguage,
         "state": stateString
       };
-      // print('Request URL: http://192.168.255.209:5000/student/book_question');
-      // print('Request Headers: ${{'Content-Type': 'application/json', 'Accept': 'application/json', 'Authorization': 'Bearer $token'}}');
-      // print('Request Body: $requestBody');
 
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/student/book_question'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/book_question'),
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
@@ -478,7 +475,7 @@ class _QuestionDoubtResolverState extends State<QuestionDoubtResolver> with Sing
       final classNum = int.tryParse(classNumString) ?? 10; // Default to 10 if parsing fails
 
      final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/student/availabilty'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/availabilty'),
         headers: {
           'Authorization': 'Bearer $token',
           'Content-Type': 'application/json',

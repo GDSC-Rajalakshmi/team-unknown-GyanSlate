@@ -409,7 +409,7 @@ class _TakeAssessmentState extends State<TakeAssessment> {
 
       print('Submitting assessment with data:');
       final response = await http.post(
-        Uri.parse('http://192.168.255.209:5000/student/complet_assignment'),
+        Uri.parse('https://dharsan-rural-edu-101392092221.asia-south1.run.app/student/complet_assignment'),
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Bearer $token', // Add the token to headers
